@@ -9,6 +9,9 @@ Base aberta com as **1332 subclasses CNAE 2.3**, separando:
 
 Consulta interativa, página por CNAE e verificação informativa das dispensas de PGR/PCMSO (NR-1, item 1.8): **https://grau-de-risco.pages.dev**
 
+## Modelos SST editáveis por setor (produto)
+Para quem documenta SST: planilha de inventário de riscos (perigos de referência a validar no estabelecimento), plano de ação, estrutura de documento do PGR, APR, OS e DDS, com os graus de risco desta base. Material de apoio, **não é PGR pronto**. Detalhes e compra: https://grau-de-risco.pages.dev/kits/
+
 ## Números (reproduzíveis: `python compliance/claims.py`)
 Comparando a proposta com o grau vigente:
 - 442 subclasses teriam grau **maior**, 362 grau **menor** e 528 ficariam iguais.
