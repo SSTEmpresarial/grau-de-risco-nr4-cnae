@@ -1,0 +1,42 @@
+{
+ "consulted": "2026-10-06",
+ "sources_sha256": {
+  "portaria_2318.txt": "8efa688a3b564a7747d780fb5064b2e186a583431495de360ea84041f0d7cf59",
+  "consulta_anexoI_nr04_texto_participativo_2026-10-06.txt": "b84ade8cb11b2e8302dc1566c58481bf51cf21dad230935784db54064db57aac",
+  "ibge_cnae_subclasses_2026-10-06.json": "0f41af4d23c80b433eb75b8b4da423562a28137b2a55693bc6cabd6df155c482",
+  "portaria_mtp_2318_2022_nova_nr04.pdf": "923e4068c6223d77881bb20975f57dd3338215700fb56bc5c428c1db50afd0a1",
+  "aviso_consulta_nr04_2026-06-01.pdf": "1e05cbb5df95ea027418df43c24d9d0769130e4ed6d501e251a654927e4f11ec",
+  "nr01_atualizada_2025.pdf": "39e0ced67472db5f6f93235ce5532701247a1b7dddf39fb866c379e605b32a21"
+ },
+ "parse_validation": {
+  "rows": 2664,
+  "first_line": 4,
+  "last_line": 2828,
+  "line_gaps": [
+   [
+    1335,
+    1497
+   ]
+  ],
+  "duplicate_subclasses": 1332,
+  "note": "The texto participativo lists the table twice (Anexo I and again in its Apêndice); both copies are compared below."
+ },
+ "copies_differ": 0,
+ "corrections": [
+  {
+   "as_published": "10099",
+   "resolved_to": "0810099",
+   "description": "Extração e britamento de pedras e outros materiais para construção e beneficiamento associado",
+   "method": "exact description match with IBGE"
+  }
+ ],
+ "n_subclasses": 1332,
+ "n_with_proposed": 1332,
+ "missing_proposed": [],
+ "up": 442,
+ "down": 362,
+ "same": 528,
+ "cross_le2_to_ge3": 115,
+ "cross_ge3_to_le2": 215,
+ "method": "Current grade: Anexo I of Portaria MTP 2.318/2022, defined per CNAE class; each subclass inherits its class grade. Proposed grade: per subclass from the consultation's texto participativo. 'up/down/same' compares the two for the 1,331 subclasses with a proposed grade. 'cross_le2_to_ge3' counts subclasses whose grade would move from 1-2 to 3-4, the only grades for which NR-1 items 1.8.4/1.8.6 allow ME/EPP to be dispensed of PGR/PCMSO (other conditions also apply)."
+}
